@@ -32,3 +32,10 @@ let teamMembers = [
         img: "img/scott-estrada-developer.jpg",
     }
 ]
+
+// MILESTONE 1:
+// Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+
+for (let i in teamMembers) {
+    console.log(teamMembers[i].name, teamMembers[i].role, teamMembers[i].img);
+}
