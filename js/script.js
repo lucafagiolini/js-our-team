@@ -45,8 +45,10 @@ for (let i in teamMembers) {
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhe 
 
+
+// BONUS 1:
 for (let member of teamMembers) {
-    document.querySelector(".membercards").innerHTML += `<div>Name: ${member.name}, Role: ${member.role}, Image: ${member.image}</div>`;
+    document.querySelector(".membercards").innerHTML += `<div>Name: ${member.name}, Role: ${member.role}, <img src= "${member.img}"></div>`;
 }
 
 
