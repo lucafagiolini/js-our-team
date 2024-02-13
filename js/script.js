@@ -48,7 +48,7 @@ for (let i in teamMembers) {
 
 // BONUS 1:
 for (let member of teamMembers) {
-    document.querySelector(".membercards").innerHTML += `<div>Name: ${member.name}, Role: ${member.role}, <img src= "${member.img}"></div>`;
+    document.querySelector(".membercards").innerHTML += `<div>Name: <h2>${member.name}</h2>, <span>Role: ${member.role}</span>, <img class="img" src= "${member.img}"></div>`;
 }
 
 
