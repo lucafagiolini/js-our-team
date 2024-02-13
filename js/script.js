@@ -37,5 +37,17 @@ let teamMembers = [
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 
 for (let i in teamMembers) {
+
     console.log(teamMembers[i].name, teamMembers[i].role, teamMembers[i].img);
+
 }
+
+// MILESTONE 2:
+// Stampare le stesse informazioni su DOM sottoforma di stringhe 
+
+for (let member of teamMembers) {
+    document.querySelector(".membercards").innerHTML += `<div>Name: ${member.name}, Role: ${member.role}, Image: ${member.image}</div>`;
+}
+
+
+
